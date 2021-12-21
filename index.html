@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega final Javascript</title>
+<link rel="stylesheet" href="estilos/css/style.css">
+</head>
+<body class="fuente">
+
+    
+
+
+   <div class="fondoFormulario"> 
+    
+    
+    
+        <form id="datosFormularioCliente" class="formularioCliente" name="formulario">
+            <p class="habilitación">*Todos los datos deben ser ingresados para habilitar el registro del cliente</p>
+           
+                  
+                        
+                      <div class= "textBox">
+                        <input type="textbox" class="input" id="inputNombre" name="nombre" placeholder="Ingresar nombre">
+                        <label for="inputNombre" class="form-label">Nombre</label>
+                        <small></small>
+                      </div>
+
+                      <div class= "textBox">
+                        <input type="textbox" class="input" id="inputApellido" name="apellido" placeholder="Ingresar apellido"/>
+                        <label for="inputApellido" class="form-label">Apellido</label>
+                        <small></small>
+                      </div>
+                    
+                      <div class= "textBox">
+                        <input type="email" class="input" id="inputEmail" name="email" placeholder="Ingresar email" />
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <small></small>
+                      </div>
+                      
+                        <div class= "textBox">
+                        <input type="number" class="input" id="inputDni" name="dni" placeholder="Ingresar dni"  />
+                        <label for="inputDni" class="form-label">Dni</label>
+                        <small></small>
+                      </div>
+                        
+                        <div class= "textBox">
+                        <input type="textbox" class="input" id="inputDirección" name="dirección" placeholder="Ingresar dirección"  />
+                        <label for="inputDireccion" class="form-label">Dirección</label>
+                        <small></small>
+                      </div>
+                       
+                        <div class= "textBox">
+                        <input type="number" class="input" id="inputEdad" name="edad" placeholder="Ingresar edad" />
+                        <label for="inputEdad" class="form-label">Edad</label>
+                        <small></small>
+                      </div>
+                        
+                        <div class= "textBox">
+                        <input type="number" class="input" id="inputTeléfono" name="teléfono" placeholder="Ingresar teléfono" />
+                        <label for="inputTelefono" class="form-label">Teléfono</label>
+                        <small></small>
+                      </div>
+                    
+
+
+                
+                     
+        
+            
+
+           <div id="botonesRadioPase" class= "radios">
+            
+                    <h3>Seleccionar pase</h3>
+            
+        
+                     <div class= "btnPase">  
+                        <input class="form-check-input" id="opcionDiario" type="radio" name="inputPase" value="Pase diario $350"> Pase diario $350
+                        <br><br>
+                    
+                        <input class="form-check-input" id="opcionMensual" type="radio" name="inputPase" value="Pase mensual $3100"> Pase mensual $3100
+                        <br><br>
+                        
+                        <input class="form-check-input" id="opcionAnual" type="radio" name="inputPase" value="Pase anual $2400 por mes"> Pase anual $2400 por mes
+                        <br><br>  
+                        
+                        <small id="mensaje" style= color:white></small >
+                         
+                     </div>
+                    
+            </div>  
+            
+  
+  
+            <div id="botonesRadioClase" class= "radios">
+            
+            
+                    <h3>Seleccionar Clase</h3> 
+                
+                    
+                    <div class= "btnClase">
+                        <input class="form-check-input" id="opcionMusculacion" type="radio" name="inputClase" value="Musculación"> Musculación
+                        <br><br>
+                    
+                    
+                        <input class="form-check-input" id="opcionSpinning" type="radio"    name="inputClase" value="Spinning"> Spinning
+                        <br><br>
+                    
+                    
+                        <input class="form-check-input" id="opcionCrossfit" type="radio" name="inputClase" value="Crossfit"> Crossfit
+                        <br><br>
+
+                        <small id="mensaje2" style= color:white></small >
+                    </div>
+                    
+            </div>
+  
+            
+            <div id="botonesRadioMétodo" class= "radios">
+                   
+                    <h3>Seleccionar método de pago</h3> 
+                
+                    
+                    <div class= "btnMétodo">
+                        <input class="form-check-input" id="opcionEfectivo" type="radio" name="inputMétodo" value="Efectivo"> Efectivo 
+                        <br><br>
+                    
+                    
+                        <input class="form-check-input" id="opcionDebito" type="radio" name="inputMétodo" value="Tarjeta de débito"> Tarjeta de débito
+                        <input class="pagoDebito" id="pagoDebito" type="button" name="pagoDebito" value="Abonar"> 
+                        <br><br>
+                    
+                    
+                        <input class="form-check-input" id="opcionCredito" type="radio" name="inputMétodo" value="Tarjeta de crédito"> Tarjeta de crédito
+                        <input class="pagoCredito" id="pagoCredito" type="button" name="pagoCredito" value="Abonar">
+                        <br><br>
+
+                        <small id="mensaje3" style= color:white></small >
+                    </div>
+                    
+            </div>
+
+
+                 
+                    <div id="botonesFormulario" class="textBox">
+                        <input class="btnForSubmit" type="submit" value="Registrar cliente" id="btnRegistrar" disabled="disabled">
+                        <input class="btnBuscar" type="button" value="Buscar cliente" id="btnBuscar" >
+                        <input class="btnForReset" type="reset" value="Borrar" id="btnBorrar">
+                        
+                    </div> 
+   
+
+      </form>
+ 
+            <div id="modal" class="modal modal--hidden">
+                       
+                <div id="contenidoModal" class="contenidoModal"></div> 
+            </div>  
+
+             
+             <div id="modalBusqueda" class="modalBusqueda modalBusqueda--hidden">
+                    
+                <div id="contenidoModalBusqueda" class="contenidoModalBusqueda">
+                    <div id="cerrarModalBusqueda" class="cerrarModalBusqueda">x</div>  
+                    <div class="etiquetaYCampo">
+                    <label id="etiquetaBuscarCliente" class="etiquetaBuscarCliente"> Buscar cliente por nombre, apellido o dni.</label>
+                    <input id="buscarCliente" class="buscarCliente" name="buscarCliente" type="text" placeholder=" Ingresar datos"/>
+                   </div>
+
+                    <div id="mostrar"></div>
+                </div> 
+
+            </div> 
+         
+         <div class="modalPago" id="modalPago">
+            
+            <div class="contenedorModalPago">
+                
+                   <div id="seccionIzquierda" class="seccionIzquierda"></div>
+                      <div class="seccionDerecha"> 
+                        <div id="cerrarModalPago" class="cerrarModalPago">x</div> 
+                            <div class="datosTarjeta">
+                                        <div class="section"> 
+                                          <input id="tarjeta" type="number" class="arriba" placeholder="Ingresar tarjeta">
+                                          <small></small>
+                                        </div>
+                                        <div class="section"> 
+                                          <input id="nombreTitular" type="text" class="arriba" placeholder="Titular">
+                                          <small></small>
+                                        </div>
+                                        <div class="sectionInferior">
+                                          <div class="item"> 
+                                            <input id="vencimiento" type="number" class="abajo" placeholder="Vencimiento" >
+                                            <small></small>
+                                          </div>
+                                          <div class="item">
+                                            <input id="código" type="number" class="abajo" placeholder="CVV">
+                                            <small></small>
+                                          </div>
+                                        </div>
+            
+                                      <a href="#modalConfirmacionPago" class="btnModalConfirmacionPago" id="borrarCampos">Confirmar</a>
+                            </div>
+                     </div>
+               </div>
+          </div>
+        
+
+          <div id="modalConfirmacionPago" class="modalConfirmacionPago">
+            
+             <div id="contenidoModalConfirmacion" class="contenidoModalConfirmacion"></div> 
+
+          </div>
+    </div>
+
+           
+            
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.js" integrity="sha512-ztxZscxb55lKL+xmWGZEbBHekIzy+1qYKHGZTWZYH1GUwxy0hiA18lW6ORIMj4DHRgvmP/qGcvqwEyFFV7OYVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js"></script>
+
+</body>
+</html>

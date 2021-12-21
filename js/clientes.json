@@ -1,0 +1,103 @@
+[{
+    "nombre": "Germán",
+    "apellido": "Cuevas",
+    "email": "cuevas@gmail.com",
+    "dni": "40586656",
+    "dirección": "Urquiza 5066",
+    "edad": 35,
+    "teléfono": "11-1563-5846",
+    "clase": "Musculación",
+    "abono": "Vigente"
+}, {
+    "nombre": "Gonzalo",
+    "apellido": "Ramos",
+    "email": "ramos@gmail.com",
+    "dni": "36584922",
+    "dirección": "Avellaneda 1580",
+    "edad": 38,
+    "teléfono": "11-5486-5866",
+    "clase": "Crossfit",
+    "abono": "Vencido"
+  }, {
+    "nombre": "Lucia",
+    "apellido": "Martinez",
+    "email": "martinez@gmail.com",
+    "dni": "38459684",
+    "dirección": "Gorriti 946",
+    "edad": 43,
+    "teléfono": "11-1256-9875",
+    "clase": "Spinning",
+    "abono": "Vigente"
+  }, {
+    "nombre": "Luciano",
+    "apellido": "Barbieri",
+    "email": "barbieri@gmail.com",
+    "dni": "35846924",
+    "dirección": "Libertador 14100",
+    "edad": 51,
+    "teléfono": "11-4358-1596",
+    "clase": "Musculación",
+    "abono": "Vencido"
+  }, {
+    "nombre": "Carlos",
+    "apellido": "Pirich",
+    "email": "Pirich@gmail.com",
+    "dni": "34865789",
+    "dirección": "Arenales 2148",
+    "edad": 19,
+    "teléfono": "11-8529-6548",
+    "clase": "Musculación",
+    "abono": "Vencido"
+  }, {
+    "nombre": "Yunca",
+    "apellido": "Chocobar",
+    "email": "chocobar@gmail.com",
+    "dni": "40865987",
+    "dirección": "Suipacha 1233",
+    "edad": 42,
+    "teléfono": "11-1478-9632",
+    "clase": "Crossfit",
+    "abono": "Vigente"
+  }, {
+    "nombre": "Nahuel",
+    "apellido": "Constantini",
+    "email": "constantini@gmail.com",
+    "dni": "33589469",
+    "dirección": "Juncal 4856",
+    "edad": 39,
+    "teléfono": "11-0123-3210",
+    "clase": "Musculación",
+    "abono": "Vigente"
+  }, {
+    "nombre": "Nicolas",
+    "apellido": "Levati",
+    "email": "levati@gmail.com",
+    "dni": "31486024",
+    "dirección": "San Martín 586",
+    "edad": 23,
+    "teléfono": "11-1084-1347",
+    "clase": "Crossfit",
+    "abono": "Vencido"
+  }, {
+    "nombre": "Juan Cruz",
+    "apellido": "Galarza",
+    "email": "galarza@gmail.com",
+    "dni": "30486957",
+    "dirección": "Belgrano 3256",
+    "edad": 28,
+    "teléfono": "11-8452-0357",
+    "clase": "Musculación",
+    "abono": "Vigente"
+  }, {
+    "nombre": "Priscila Damaris",
+    "apellido": "Britez",
+    "email": "britez@gmail.com",
+    "dni": "42015479",
+    "dirección": "Rivadavia 1532",
+    "edad": 31,
+    "teléfono": "11-1470-5370",
+    "clase": "Spinning",
+    "abono": "Vigente"
+  }
+]
+  
